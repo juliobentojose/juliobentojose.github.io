@@ -1,0 +1,140 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-image: url(../imagem/WhatsApp\ Image\ 2023-05-04\ at\ 15.53.30.jpeg);
+    background-attachment: fixed;
+}
+
+.imagem {
+    margin-top: 50px;
+    margin-bottom: 5px;
+    margin-left: 50px;
+    margin-right: 50px;
+    text-align: center;
+    background-color: white;
+    height: 100%;
+}
+
+.imagem img {
+    width: 100%;
+    height: 100%;
+}
+
+.imagem1 img {
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+    object-fit: cover;
+}
+
+.cabecario h4 {
+    color: rgb(248, 244, 244);
+    font-size: 30px;
+    margin-top: 5px;
+    /* text-transform: uppercase; */
+}
+
+a {
+    color: rgb(248, 244, 244);
+    text-decoration: none;
+    margin-left: 30px;
+    font-size: 15px;
+    text-transform: uppercase;
+    /* medida do negrito */
+    font-weight: 900;
+}
+
+.cabecario {
+    padding: 5px 30px 5px 30px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    border-bottom: 1px solid rgb(255, 251, 251);
+    align-items: center;
+}
+
+#cabe {
+    background-color: rgb(20, 20, 44);
+    border-radius: 0px;
+}
+
+.top {
+    /* padding-top: 10px; */
+    text-align: right;
+}
+
+a:hover {
+    color: wheat;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.card {
+    display: inline-flex;
+    text-align: center;
+    width: 100%;
+}
+
+.card div {
+    width: 600px;
+    height: 300px;
+    text-align: center;
+    /* border: 1px solid rgb(146, 143, 143); */
+    border-radius: 10px;
+    margin-left: 20px;
+    box-shadow: 4px 4px 10px rgba(167, 164, 164, 0.568);
+}
+
+.tb {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.tb h3 {
+    color: rgb(94, 100, 104);
+    text-transform: uppercase;
+    font-weight: 900;
+}
+
+.tabela {
+    width: 100%;
+    padding: 5px;
+    border-spacing: 0px;
+}
+
+.tabela thead tr {
+    background-color: rgba(189, 185, 185, 0.596);
+}
+
+.tabela thead tr th {
+    color: #585454;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-family: monospace;
+    font-size: 18px;
+}
+
+.tabela tbody tr td {
+    padding-top: 10px;
+    font-size: 15px;
+    color: rgb(15, 15, 15);
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    border: 1px solid rgba(128, 128, 128, 0.589);
+}
+
+h3 {
+    margin-left: 10px;
+}
+
+footer {
+    background-color: rgb(20, 20, 44);
+    height: 120px;
+    margin-bottom: 10px;
+    padding: 5px;
+}
+
+footer span {
+    color: wheat;
+    margin-left: 5px;
+    padding-top: 10px;
+    margin-bottom: 10px;
+}
